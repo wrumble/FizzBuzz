@@ -9,3 +9,9 @@ var Fizzbuzz = function () {
   Fizzbuzz.prototype.isDivisibleByFive = function(number) {
     return number % 5 === 0;
   };
+
+  Fizzbuzz.prototype.isDivisibleByFifteen = function(number) {
+    return number % 15 === 0;
+  };
+
+  
